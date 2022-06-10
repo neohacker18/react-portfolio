@@ -1,13 +1,13 @@
 *{
   font-family: 'NTR',sans-serif;
   color: #ccd6f6;
-  /* background-color:#0e1827; */
+  background-color:#0e1827;
 }
-
+/* 
 body {
   background-image: url("./img/bg.png");
   background-color: #cccccc;
- }
+ } */
 
 .blinker{
   font-weight: 100;
@@ -23,6 +23,7 @@ body {
 
 .a{
   color: #64ffda;
+  text-decoration: none;
 }
 .img{
   background-color:#64ffda;
@@ -32,4 +33,80 @@ body {
 .d-block{
   border-bottom: 70px solid black;
   border-radius: 10px;
+}
+
+.card-description
+{
+  font-weight:bolder;
+  font-size: 1.6rem;
+  background-color: #202524;
+  text-decoration: none;
+}
+
+.card-techstack{
+  background-color: #202524;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 4;
+  }
+}
+.card-img-top{
+  height: 60%;
+}
+.card{
+  border:none;
+}
+
+.card-body{
+  background-color: #202524;
+}
+
+.icons{
+  background-color: #202524;
+}
+.caro-icons{
+  width: 5%;
+  position: absolute;
+  top:11.5%;
+  right:20%
+}
+.caro-icons:hover{ 
+  transform: scale(1.05);
+} 
+.card-1:hover{ 
+  transform: scale(1.05);
+} 
+.card-2:hover{ 
+  transform: scale(1.05);
+} 
+.card-3:hover{ 
+  transform: scale(1.05);
+} 
+.imgStyle{
+  width:27%;
+  position:absolute;
+  top:20%;
+  left:58%;
+  border-radius:40px;
+  border:2px solid black
+}
+
+.imgStyle:hover{
+  top:19.2%
+}
+
+.nav-icons{
+  width: 15%;
+}
+
+.icon-link{
+  color:#64ffda;
 }

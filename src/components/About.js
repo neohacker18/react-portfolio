@@ -1,5 +1,7 @@
 import React from 'react'
 import image1 from '../img/about.jpeg'
+import { Leetcode,Codeforces,Codechef} from '@icons-pack/react-simple-icons';
+
 const About = () => {
     const nameStyle={
         color:'#64ffda'
@@ -8,14 +10,6 @@ const About = () => {
         color:'#64ffda'
     };
     
-    const imgStyle={
-        width:'27%',
-        position:'absolute',
-        top:'20%',
-        left:'58%',
-        borderRadius:'40px',
-        border:'2px solid black',
-    }
   return (
     <div>
         <div className="d-flex justify-content-start">
@@ -38,11 +32,17 @@ const About = () => {
                 <div className="p-2" style={tech}>Node.js</div>
             </div>
         </div>
-            <p className='my-3' style={{color:'#8892b0',fontSize:'1.4rem'}}>Outside of work, Problem solving is my favorite hobby. I have solved over 500 problems on Leetcode, Codeforces and other websites.</p>
+            <p className='my-3' style={{color:'#8892b0',fontSize:'1.4rem'}}>Outside of work, Problem solving is my favorite hobby. I have solved over 500 problems on Leetcode (
+                <a className="links" href="https://leetcode.com/neo_yuki/" ><Leetcode color="#64ffda" size={20}/></a>
+
+            ), Codeforces (
+                <a className="links" href="https://codeforces.com/profile/yuki_sasaki" ><Codeforces color="#64ffda" size={20}/></a>
+            ) and other websites.</p>
         </div>
         </div>
         <div className="d-flex flex-column">
-            <img src={image1} alt="" style={imgStyle}/>
+            <img src={image1} alt="" className="imgStyle" />
+            
         </div>
         </div>
       </div>
