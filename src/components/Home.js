@@ -28,7 +28,9 @@ const Home = () => {
             <p className="text-start" style={{color:'#8892b0',fontSize:'1.4rem'}}>I'm a computer science student based in Delhi, India. I have great interest in Fullstack Development, competitive programming and everything in between.</p>
         </div>
         <a href="mailto:aryan.sethi18@gmail.com">
-        <button type="button" className="btn btn-secondary" style={{width:'30%',fontSize:'1.5rem'}}>Say Hi!</button>
+        <button type="button" className="btn btn-secondary" style={{width:'30%',fontSize:'1.5rem'}}>
+          Say Hi!
+          </button>
         </a>
       </div>
     </div>

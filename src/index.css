@@ -58,6 +58,7 @@ body {
     column-count: 4;
   }
 }
+
 .card-img-top{
   height: 60%;
 }
@@ -109,4 +110,11 @@ body {
 
 .icon-link{
   color:#64ffda;
+}
+
+.gmail{
+  background-color: black;
+  position: absolute;
+  left: 6%;
+  top:87%
 }

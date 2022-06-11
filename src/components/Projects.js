@@ -3,9 +3,9 @@ import image1 from '../img/prod.png'
 import image2 from '../img/covidTracker.png'
 import image3 from '../img/textutils.png'
 import image4 from '../img/shoot1.png'
-import image5 from '../img/git.png'
+import image5 from '../img/inotebook.png'
 import image6 from '../img/dance.png'
-import { Leetcode,Github,Linkedin} from '@icons-pack/react-simple-icons';
+import { Github} from '@icons-pack/react-simple-icons';
 
 const Projects = () => {
   const myStyle = {
@@ -25,25 +25,25 @@ const Projects = () => {
               <div className="carousel-item active">
                 <img className="d-block w-100 caro-image" src={image1} alt="Second slide" />
                 <div className="carousel-caption d-none d-md-block">
-                <a className="links" href="https://github.com/neohacker18" ><Github color="#64ffda" size={20}/></a>
+                <a className="links" href="https://github.com/neohacker18/threejs-background-scene" ><Github color="#64ffda" size={20}/></a>
                   <h5>ThreeJS</h5>
                   <p>A 3d web-project with added hover effect, orbit control and a gui to control the segment.</p>
-                  <h5 style={myStyle}>Javascript (THREEJS)</h5>
+                  <h5 style={myStyle}>Javascript (THREE.js)</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <img className="d-block w-100 caro-image" src={image2} alt="Second slide" />
+                <img className="d-block w-100 caro-image" src={image5} alt="Second slide" />
                 <div className="carousel-caption d-none d-md-block">
-                <a className="links" href="https://github.com/neohacker18" ><Github color="#64ffda" size={20}/></a>
-                  <h5>Covid Tracker</h5>
-                  <p>A web-application that provides visual data for covid patients.</p>
-                  <h5 style={myStyle}>Javascript (MapBox)</h5>
+                <a className="links" href="https://github.com/neohacker18/notebook" ><Github color="#64ffda" size={20}/></a>
+                  <h5>Notebook</h5>
+                  <p>A fullstack web-application to maintain your notes with added authentication facilities.</p>
+                  <h5 style={myStyle}>React.js/MongoDB</h5>
                 </div>
               </div>
               <div className="carousel-item">
                 <img className="d-block w-100 caro-image" src={image3} alt="Third slide" />
                 <div className="carousel-caption d-none d-md-block">
-                <a className="links" href="https://github.com/neohacker18" ><Github color="#64ffda" size={20}/></a>
+                <a className="links" href="https://github.com/neohacker18/textutils" ><Github color="#64ffda" size={20}/></a>
                   <h5>TextUtils</h5>
                   <p>A utility application that helps in text manipulation and satisfies other document related queries.</p>
                   <h5 style={myStyle}>React.js</h5>
@@ -69,15 +69,15 @@ const Projects = () => {
               <div class="card-body">
                 <p class="card-description">Shooter Game</p>
                 <h5 className="card-techstack">C++ (SFML)</h5>
-                <a className="links" href="https://github.com/neohacker18" ><Github color="#64ffda" size={20} className="icons"/></a>
+                <a className="links" href="https://github.com/neohacker18/shootergame" ><Github color="#64ffda" size={20} className="icons"/></a>
               </div>
             </div>
             <div class="card card-2">
-              <img src={image1} class="card-img-top" alt="..." />
+              <img src={image2} class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-description">Notebook</p>
-                <h5 className="card-techstack">ReactJS/MongoDB</h5>
-                <a className="links" href="https://github.com/neohacker18" ><Github color="#64ffda" size={20}  className="icons"/></a>
+                <p class="card-description">Covid Tracker</p>
+                <h5 className="card-techstack">Javascript (MapBox)</h5>
+                <a className="links" href="https://github.com/neohacker18/covidTracker" ><Github color="#64ffda" size={20}  className="icons"/></a>
               </div>
             </div>
             <div class="card card-3">
@@ -85,7 +85,7 @@ const Projects = () => {
               <div class="card-body">
                 <p class="card-description">Dance Academy</p>
                 <h5 className="card-techstack">Express (pug)</h5>
-                <a className="links" href="https://github.com/neohacker18" ><Github color="#64ffda" size={20} className="icons"/></a>
+                <a className="links" href="https://github.com/neohacker18/Dance-Website" ><Github color="#64ffda" size={20} className="icons"/></a>
               </div>
             </div>
           </div>
