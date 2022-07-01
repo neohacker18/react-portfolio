@@ -4,7 +4,7 @@ import { Leetcode,Github,Linkedin} from '@icons-pack/react-simple-icons';
 
 const Navbox = () => {
     const linkStyle={
-        fontSize:'1.1rem',
+        fontSize:'0.8 rem',
         padding:'2px',
         color: '#64ffda',
         textDecoration:'none',

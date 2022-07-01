@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
-import Typewriter from "typewriter-effect";
 import Mail from "./svg/Mail";
+import Typewriter from "typewriter-effect";
 const Home = () => {
   const fonthelp = {
     fontSize: "5.5rem",
@@ -13,11 +13,12 @@ const Home = () => {
           <span style={fonthelp}>
             <Typewriter
               options={{
-                strings:'hi, aryan here.',
+                strings: `hi, aryan here.`,
                 autoStart: true,
                 loop: true,
+                pauseFor:2500,
               }}
-              />
+            />
           </span>
         </div>
         <div className="p-2">
@@ -30,9 +31,16 @@ const Home = () => {
             everything in between.
           </p>
         </div>
-        <a href="mailto:aryan.sethi18@gmail.com" style={{textDecoration:'none'}}>
-          <button type="button" className="btn btn-secondary btn-lg" id="say-hi">
-            <Mail/> Say Hi! 
+        <a
+          href="mailto:aryan.sethi18@gmail.com"
+          style={{ textDecoration: "none" }}
+        >
+          <button
+            type="button"
+            className="btn btn-secondary btn-lg"
+            id="say-hi"
+          >
+            <Mail /> Say Hi!
           </button>
         </a>
       </div>

@@ -23,7 +23,7 @@ const Projects = () => {
         <div id="caro" className="p-2" >
           <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" style={{ borderRadius: '30px' }}>
             <div className="carousel-inner">
-              <div className="carousel-item active">
+              <div className="carousel-item">
                 <img className="d-block w-100 caro-image" src={image1} alt="Second slide" />
                 <div className="carousel-caption d-none d-md-block">
                 <a className="links" href="https://github.com/neohacker18/threejs-background-scene" ><Github color="#64ffda" size={20}/></a>
@@ -41,7 +41,7 @@ const Projects = () => {
                   <h5 style={myStyle}>React.js/MongoDB</h5>
                 </div>
               </div>
-              <div className="carousel-item">
+              <div className="carousel-item active">
                 <img className="d-block w-100 caro-image" src={image7} alt="Second slide" />
                 <div className="carousel-caption d-none d-md-block">
                 <a className="links" href="https://github.com/neohacker18/" ><Github color="#64ffda" size={20}/></a>
