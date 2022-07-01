@@ -3,11 +3,6 @@
   color: #ccd6f6;
   background-color:#0e1827;
 }
-/* 
-body {
-  background-image: url("./img/bg.png");
-  background-color: #cccccc;
- } */
 
 .blinker{
   font-weight: 100;
@@ -15,10 +10,30 @@ body {
   color: #64ffda;
 }
 
+#home-hero{
+  width:50%;
+  position:absolute;
+  top:25%;
+  left:10%;
+}
+
+#say-hi{
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 14px;
+  text-decoration: none;
+}
+
 .btn{
   color: #64ffda;
   border: 2px solid  #64ffda;
-  background-color: black;
+  background-color:#0e1827!important;
+}
+
+.btn-secondary{
+  background-color:#0e1827!important;
 }
 
 .a{
@@ -73,6 +88,11 @@ body {
 .icons{
   background-color: #202524;
 }
+
+.caro-image{
+  opacity: 0.3;
+}
+
 .caro-icons{
   width: 5%;
   position: absolute;
@@ -92,7 +112,7 @@ body {
   transform: scale(1.05);
 } 
 .imgStyle{
-  width:27%;
+  width:230px;
   position:absolute;
   top:20%;
   left:58%;
@@ -118,3 +138,45 @@ body {
   left: 6%;
   top:87%
 }
+
+.projects-hero{
+  height:100%;
+  width:75%;
+  position: absolute; 
+  left: 25%;
+}
+
+#hero-nav{
+  width:50%;
+  position:absolute;
+  top:64%;
+  left:87%;
+}
+
+#projects-heading{
+  font-size: 4rem;
+}
+
+#caro{
+  width: 65%;
+}
+@media screen and (max-width:750px){
+  .imgStyle{display: none;}
+}
+
+@media screen and (max-width:608px)
+{
+  #hero-nav{
+    left:86%;
+  }
+  #caro{
+    width:90vw;
+    position: absolute;
+    top:160px;
+    right:6%;
+  }
+  #projects-heading{
+    font-size: 2rem;
+  }
+}
+

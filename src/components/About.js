@@ -1,13 +1,15 @@
 import React from 'react'
 import image1 from '../img/about.jpeg'
-import { Leetcode,Codeforces,Codechef} from '@icons-pack/react-simple-icons';
+import { Leetcode,Codeforces} from '@icons-pack/react-simple-icons';
 
 const About = () => {
     const nameStyle={
         color:'#64ffda'
     };
     const tech={
-        color:'#64ffda'
+        color:'#64ffda',
+        display:'flex',
+        justifyContent:'space-between'
     };
     
   return (
@@ -41,7 +43,7 @@ const About = () => {
         </div>
         </div>
         <div className="d-flex flex-column">
-            <img src={image1} alt="" className="imgStyle" />
+            <img src={image1} alt="" className={`imgStyle`}/>
             
         </div>
         </div>

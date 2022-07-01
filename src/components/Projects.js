@@ -5,8 +5,9 @@ import image3 from '../img/textutils.png'
 import image4 from '../img/shoot1.png'
 import image5 from '../img/inotebook.png'
 import image6 from '../img/dance.png'
+import image7 from '../img/better-ide.png'
+import image8 from '../img/messenger.png'
 import { Github} from '@icons-pack/react-simple-icons';
-
 const Projects = () => {
   const myStyle = {
     fontSize: '0.8rem',
@@ -15,11 +16,11 @@ const Projects = () => {
   
   return (
     <div>
-      <div className="d-flex flex-column text-left" style={{height:'100%', width: '70%', position: 'absolute', left: '25%' }}>
+      <div id="proj" className="d-flex flex-column text-left projects-hero">
         <div className="p-2 my-3">
-          <h1 style={{ fontSize: '5.5rem' }}>/projects</h1>
+          <h1 id='projects-heading'>/projects</h1>
         </div>
-        <div id="caro" className="p-2" style={{ width: '65%' }}>
+        <div id="caro" className="p-2" >
           <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" style={{ borderRadius: '30px' }}>
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -41,6 +42,24 @@ const Projects = () => {
                 </div>
               </div>
               <div className="carousel-item">
+                <img className="d-block w-100 caro-image" src={image7} alt="Second slide" />
+                <div className="carousel-caption d-none d-md-block">
+                <a className="links" href="https://github.com/neohacker18/" ><Github color="#64ffda" size={20}/></a>
+                  <h5>better-ide.com</h5>
+                  <p>An online facility to run your C++/Python codes on your web browser.</p>
+                  <h5 style={myStyle}>Reactjs/Nodejs/Ace</h5>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <img className="d-block w-100 caro-image" src={image8} alt="Third slide" />
+                <div className="carousel-caption d-none d-md-block">
+                <a className="links" href="https://github.com/neohacker18/messenger" ><Github color="#64ffda" size={20}/></a>
+                  <h5>Messenger</h5>
+                  <p>A utility application that helps in text manipulation and satisfies other document related queries.</p>
+                  <h5 style={myStyle}>React.js/Firebase</h5>
+                </div>
+              </div>
+              <div className="carousel-item">
                 <img className="d-block w-100 caro-image" src={image3} alt="Third slide" />
                 <div className="carousel-caption d-none d-md-block">
                 <a className="links" href="https://github.com/neohacker18/textutils" ><Github color="#64ffda" size={20}/></a>
@@ -59,32 +78,32 @@ const Projects = () => {
               <span className="sr-only">Next</span>
             </a>
           </div>
-        </div>
-      </div>
+  </div>
+      </div> 
       <div className="d-flex flex-column" style={{ width: '70%', position: 'absolute', top: '90%', left: '15%' }}>
-        <div class="card mb-3 project-box">
-          <div class="card-deck">
-            <div class="card card-1">
-              <img src={image4} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-description">Shooter Game</p>
+        <div className="card mb-3 project-box">
+          <div className="card-deck">
+            <div className="card card-1">
+              <img src={image4} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-description">Shooter Game</p>
                 <h5 className="card-techstack">C++ (SFML)</h5>
                 <a className="links" href="https://github.com/neohacker18/shootergame" ><Github color="#64ffda" size={20} className="icons"/></a>
               </div>
             </div>
-            <div class="card card-2">
-              <img src={image2} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-description">Covid Tracker</p>
+            <div className="card card-2">
+              <img src={image2} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-description">Covid Tracker</p>
                 <h5 className="card-techstack">Javascript (MapBox)</h5>
                 <a className="links" href="https://github.com/neohacker18/covidTracker" ><Github color="#64ffda" size={20}  className="icons"/></a>
               </div>
             </div>
-            <div class="card card-3">
-              <img src={image6} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-description">Dance Academy</p>
-                <h5 className="card-techstack">Express (pug)</h5>
+            <div className="card card-3">
+              <img src={image6} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-description">Dance Academy</p>
+                <h5 className="card-techstack">Express/MongoDB</h5>
                 <a className="links" href="https://github.com/neohacker18/Dance-Website" ><Github color="#64ffda" size={20} className="icons"/></a>
               </div>
             </div>

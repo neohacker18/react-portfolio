@@ -13,7 +13,7 @@ const Navbox = () => {
     } 
 
   return (
-    <div className="d-flex flex-column text-right position-fixed fixed-bottom" style={{width:'50%',position:'absolute',top:'64%',left:'87%'}}>
+    <div className="d-flex flex-column text-right position-fixed fixed-bottom" id="hero-nav">
         <Link className="links" to="/" style={linkStyle}>/home</Link>
         <Link className="links" to="/about" style={linkStyle}>/about</Link>
         <Link className="links" to="/projects" style={linkStyle}>/projects</Link>
