@@ -28,7 +28,7 @@ const Home = () => {
           >
             I'm a computer science student based in Delhi, India. I have great
             interest in Fullstack Development, competitive programming and
-            everything in between.
+            love solving hard engineering problems.
           </p>
         </div>
         <a

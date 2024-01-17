@@ -7,6 +7,10 @@ import image5 from '../img/inotebook.png'
 import image6 from '../img/dance.png'
 import image7 from '../img/better-ide.png'
 import image8 from '../img/messenger.png'
+import imagePathfinder from '../img/astar.png'
+import imageNoti from '../img/noti.png'
+import imageFin from '../img/dark-mode.png'
+import imageSchema from '../img/schema.png'
 import { Github} from '@icons-pack/react-simple-icons';
 const Projects = () => {
   const myStyle = {
@@ -83,7 +87,7 @@ const Projects = () => {
       <div className="d-flex flex-column" style={{ width: '70%', position: 'absolute', top: '90%', left: '15%' }}>
         <div className="card mb-3 project-box">
           <div className="card-deck">
-            <div className="card card-1">
+            <div className="card card-1" style={{height:380}}>
               <img src={image4} className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-description">Shooter Game</p>
@@ -91,7 +95,35 @@ const Projects = () => {
                 <a className="links" href="https://github.com/neohacker18/shootergame" ><Github color="#64ffda" size={20} className="icons"/></a>
               </div>
             </div>
-            <div className="card card-2">
+            <div className="card card-2" style={{height:380}}>
+              <img src={imagePathfinder} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-description">Pathfinder Visualiser</p>
+                <h5 className="card-techstack">React / Data Structures and Algorithms</h5>
+                <a className="links" href="https://github.com/neohacker18/pathfinder" ><Github color="#64ffda" size={20}  className="icons"/></a>
+              </div>
+            </div>
+            <div className="card card-3" style={{height:380}}>
+              <img src={imageNoti} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-description">Notifications Panel</p>
+                <h5 className="card-techstack">Nextjs / Typescript / Sockets</h5>
+                <a className="links" href="https://github.com/neohacker18/notifications-panel" ><Github color="#64ffda" size={20} className="icons"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card mb-3 project-box">
+          <div className="card-deck">
+            <div className="card card-1" style={{height:380}}>
+              <img src={imageFin} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-description">Fin Panel</p>
+                <h5 className="card-techstack">React / Redux / Chart.js</h5>
+                <a className="links" href="https://github.com/neohacker18/fin-panel" ><Github color="#64ffda" size={20} className="icons"/></a>
+              </div>
+            </div>
+            <div className="card card-2" style={{height:380}}>
               <img src={image2} className="card-img-top" alt="..." />
               <div className="card-body">
                 <p className="card-description">Covid Tracker</p>
@@ -99,12 +131,12 @@ const Projects = () => {
                 <a className="links" href="https://github.com/neohacker18/covidTracker" ><Github color="#64ffda" size={20}  className="icons"/></a>
               </div>
             </div>
-            <div className="card card-3">
-              <img src={image6} className="card-img-top" alt="..." />
+            <div className="card card-3" style={{height:380}}>
+              <img src={imageSchema} className="card-img-top" alt="..." />
               <div className="card-body">
-                <p className="card-description">Dance Academy</p>
-                <h5 className="card-techstack">Express/MongoDB</h5>
-                <a className="links" href="https://github.com/neohacker18/Dance-Website" ><Github color="#64ffda" size={20} className="icons"/></a>
+                <p className="card-description">Schema Builder</p>
+                <h5 className="card-techstack">React / Ant Design</h5>
+                <a className="links" href="https://github.com/neohacker18/schema-builder" ><Github color="#64ffda" size={20} className="icons"/></a>
               </div>
             </div>
           </div>
